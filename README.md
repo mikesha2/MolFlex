@@ -1,5 +1,5 @@
 # MolFlex
-A simple Unity interface for [NeuralDock](https://doi.org/10.3389/fmolb.2022.867241): download over at [Releases](https://github.com/mikesha2/MolFlex/releases).
+A simple Unity interface for [NeuralDock](https://doi.org/10.3389/fmolb.2022.867241): download over at [Releases](https://github.com/mikesha2/MolFlex/releases). Internet connection required to load proteins!
 
 Basic functionality. WASD movement, ZX for vertical movement, click and drag to turn camera.
 
@@ -10,7 +10,7 @@ Basic functionality. WASD movement, ZX for vertical movement, click and drag to 
 5. Click Compute
 
 # Unity packages
-I use the [NCDK](kazuyaujihara.github.io/ncdk/) package to parse SMILES. Protein crystal structures are directly retrieved from the [RCSB Protein Data Bank](https://www.rcsb.org/). Proteins are rendered by the [Unity DOTS stack](https://unity.com/dots), and the neural network is run using [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents) with Barracuda. The neural network was designed and trained in TensorFlow 2 and exported to [ONNX format](https://github.com/onnx/tensorflow-onnx).
+Protein crystal structures are directly retrieved from the [RCSB Protein Data Bank](https://www.rcsb.org/) and parsed. I used the [NCDK](kazuyaujihara.github.io/ncdk/) package to parse SMILES. Proteins are rendered by the [Unity DOTS stack](https://unity.com/dots), and the neural network is run using [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents) with Barracuda. The neural network was designed and trained in TensorFlow 2 and exported to [ONNX format](https://github.com/onnx/tensorflow-onnx).
 
 
 Note: Try not to click Compute too quickly. The Mac version is functional but more jittery than the Windows version. The neural network is a smaller version of the one found in our paper.
