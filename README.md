@@ -1,5 +1,5 @@
 # MolFlex
-A simple Unity interface for NeuralDock.
+A simple Unity interface for [NeuralDock](https://doi.org/10.3389/fmolb.2022.867241).
 
 Basic functionality. WASD movement, ZX for vertical movement, click and drag to turn camera.
 
